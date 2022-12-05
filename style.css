@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------ HEADER ----------------------------------------------- */
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(https://boss-digital.co.uk/wp-content/uploads/2015/02/AdobeStock_119516434-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+    
+nav {
+    color: rgb(23, 28, 32);
+    padding: 30px;
+    overflow: hidden;
+    
+}
+
+#logo::first-line{
+    float: left;
+    color: rgb(66, 9, 12);
+    font-size: 50px;
+    font-family: fantasy;
+    opacity: 0.8;
+    
+    
+}
+span.ft{
+    color: black;
+
+
+}
+
+u:hover {
+    text-decoration: underline;
+    text-decoration-color:rgb(218, 236, 52) ;
+
+
+}
+u{
+    text-decoration: underline;
+    text-decoration-color:rgb(6, 6, 6) ;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    float: right
+}
+
+nav ul li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(251, 251, 82);
+    padding: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a:hover{
+    font-family: cursive;
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 242, 242);
+}
+
+.heading {
+    float: left;
+    padding: 100px;
+
+    margin-top: 20px;
+}
+
+.heading p{
+    color: rgb(235, 230, 230);
+    font-size: 50px;
+    text-align: center;
+}
+.heading span.pn{
+    color: rgb(228, 195, 124);
+    text-decoration: underline;
+    text-decoration-color:yellow ;
+}
+.heading span.gn{
+    color: rgb(228, 195, 124);
+    text-decoration: underline;
+    text-decoration-color:yellow ;
+}
+.heading span.tn{
+    color: rgb(228, 195, 124);
+    text-decoration: underline;
+    text-decoration-color:yellow ;
+}
+
+.order{
+    margin: 50px 50px;
+    text-align:center
+}
+
+.order p {
+    display:inline-flex;
+    padding: 12px 50px;
+    margin-left: 30px;
+    border-radius: 800px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+#order{
+    background-color: transparent;
+    border: 2px solid rgb(194, 191, 186);
+    color: rgb(180, 130, 39);
+}
+#order:hover{
+    background-color: rgb(195, 143, 41);
+    color: rgb(26, 26, 25);
+}
+
+#sign {
+    color: rgb(169, 124, 40);
+    background-color: rgb(13, 9, 2);
+}
+#sign:hover{
+    background-color: rgb(24, 23, 22);
+    font-size: 27px;
+
+    
+    
+
+}
